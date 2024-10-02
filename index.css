@@ -1,0 +1,76 @@
+body {
+    background-color: #000000; /* Dark black background */
+    background-image: url('estacion.jpg'); /* Add your background image here */
+    background-size: cover; /* Ensure the background image covers the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    position: relative; /* Required for absolute positioning of pseudo-elements */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative; 
+    z-index: 1; /* Ensure the container is above the background image */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    background-color: rgba(64, 224, 208, 0.8); /* Turquoise background for the container with some opacity */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#welcomeGreet {
+    color: white; /* Set the text color to white */
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}  
+
+h2 {
+    font-size: 40;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.container {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    background-color: turquoise; /* Turquoise background for the container */
+    padding: 20px;
+    border-radius: 10px;
+}
+button {
+    display: block;
+    border: none;
+    margin: 10px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#decrease-btn {
+    background: darkorange;
+}
+#save-btn {
+    background: darkgreen;
+}
+
